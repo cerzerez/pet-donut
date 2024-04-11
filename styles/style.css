@@ -1,0 +1,49 @@
+/* для смартфонов — 320 px, 480 px и выше;
+для планшетов — 768 px и выше;
+для нетбуков — 1024 px и выше;
+для мониторов — 1280 px, 1600 px, 1920 px и выше. */
+body {
+  
+}
+
+.body_container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.order_container {
+  width: 1000px;
+  background-color: rgb(233, 210, 180);
+}
+
+.order-content_container {
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.type-of-donut_container {
+  width: 600px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.components_container {
+  width: 600px;
+  height: 100px;
+  background-color: rgb(219, 219, 219);
+}
+
+.components-selection_container {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(199, 199, 199);
+}
+
+.donut-view_container {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(253, 218, 218);
+}
